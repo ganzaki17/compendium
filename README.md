@@ -1,2 +1,2 @@
 # compendium
-It's a compendium ¯\\_(ツ)_/¯
+It's a compendium ¯\\__(ツ)__/¯
