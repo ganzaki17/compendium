@@ -7,21 +7,42 @@
 		Block Placement<br>
 		write strategy<br>
 		block replacement<br>
+		
+		<h2>Motivation and Overview</h2>
+			Programmers ideally want unlimited fast memory, we try to create the illusion of having a large amount of fast memory by implementing memory as a hierarchy.<br>
+			Multiple levels of memory having different speends and sizes are used, we keep the smaller and faster memories closer to the prcessor and the slower, larger memories further away.<br>
+		
+		<h2>Cache Memory</h2>
+			Cache is a small and fast buffer between the the processor and the memory.<br>
+			Older unused data is replaced by newer data which is more likely to be used in the future.<br>
+			<b>Temporal Locality: </b>If a data element is accessed, it is likely to be accessed again in the near future.
+			<b>Spatial Locality: </b>If a data element is accessed, the elements around it are likely to be accessed in the near future.
+		
+		<h2>Cache Fundamentals</h2>
+			<b>Block: </b>
+			<b>Hit: </b>
+			<b>Miss: </b>
+			<b>Hit Time: </b>
+			<b>Hit Rate/Miss Rate: </b>
+		
+		<h2>Cache Interaction</h2>
+		<h2>Orgainization of Cache</h2>
+		<h2>Addressing Cache</h2>
 		<h2>Block Placement</h2>
-		Block Placement answers the question where a block can be placed in the cache? There are three types of Block Placement
+			Block Placement answers the question where a block can be placed in the cache? There are three types of Block Placement
 		<ol>
 			<li>Fully Associative</li>
 			<li>Set Associative</li>
 			<li>Direct Mapped</li>
 		</ol>
 			insert image here
-		<h4>Fully Associative</h4>
-			A memory block can be placed into any block in the cache.
-		<h4>Set Associative</h4>
-			A memory block can be placed into any block in a set of blocks in the cache.<br>
-			(Block number) mod (Number of sets)
-		<h4>Direct Mapped</h4>
-			A memory block can be placed only into one particular block in the cache.<br>
-			(Block number) mod (Number of blocks in cache)
+			<h4>Fully Associative</h4>
+				A memory block can be placed into any block in the cache.
+			<h4>Set Associative</h4>
+				A memory block can be placed into any block in a set of blocks in the cache.<br>
+				(Block number) mod (Number of sets)
+			<h4>Direct Mapped</h4>
+				A memory block can be placed only into one particular block in the cache.<br>
+				(Block number) mod (Number of blocks in cache)
 	</body>
 </html>
